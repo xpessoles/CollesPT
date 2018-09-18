@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.12)  14 SEP 2018 21:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.12)  18 SEP 2018 21:11
 entering extended mode
 **./GPS_PPM_Colle_03_Nacelle.tex
 (GPS_PPM_Colle_03_Nacelle.tex
@@ -2345,10 +2345,6 @@ File: images/gps_03.jpg Graphic file (type jpg)
 <use images/gps_03.jpg>
 Package pdftex.def Info: images/gps_03.jpg  used on input line 118.
 (pdftex.def)             Requested size: 66.168pt x 17.07182pt.
-File: images/gps_03.jpg Graphic file (type jpg)
-<use images/gps_03.jpg>
-Package pdftex.def Info: images/gps_03.jpg  used on input line 121.
-(pdftex.def)             Requested size: 66.168pt x 17.07182pt.
 <images/fig_04.jpg, id=12, 1052.9739pt x 722.2182pt>
 File: images/fig_04.jpg Graphic file (type jpg)
 <use images/fig_04.jpg>
@@ -2364,12 +2360,12 @@ ed.
 design size mismatch in local font md-utro8t in virtual font mdputro8t.vf ignor
 ed. <./images/fig_00.jpg> <./images/fig_01.jpg> <./images/fig_02.jpg> <./images
 /gps_01.jpg> <./images/gps_02.jpg> <./images/gps_03.jpg>]
-<images/fig_03.jpg, id=35, 402.7848pt x 556.9608pt>
+<images/fig_03.jpg, id=37, 402.7848pt x 556.9608pt>
 File: images/fig_03.jpg Graphic file (type jpg)
 <use images/fig_03.jpg>
 Package pdftex.def Info: images/fig_03.jpg  used on input line 140.
 (pdftex.def)             Requested size: 483.69687pt x 668.84251pt.
-<png/logo_lycee.png, id=36, 329.23pt x 265.99374pt>
+<png/logo_lycee.png, id=38, 329.23pt x 265.99374pt>
 File: png/logo_lycee.png Graphic file (type png)
 <use png/logo_lycee.png>
 Package pdftex.def Info: png/logo_lycee.png  used on input line 141.
@@ -2410,7 +2406,15 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 144.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                GPS_PPM_Colle_03_Nacelle
+(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'GPS_PPM_Colle_03_Nacelle.run.xml'.
 \openout1 = `GPS_PPM_Colle_03_Nacelle.run.xml'.
@@ -2418,26 +2422,27 @@ Package logreq Info: Writing requests to 'GPS_PPM_Colle_03_Nacelle.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 144.
  ) 
 Here is how much of TeX's memory you used:
- 43891 strings out of 492972
- 821845 string characters out of 3135883
+ 43902 strings out of 492972
+ 822032 string characters out of 3135883
  1382591 words of memory out of 3000000
  47031 multiletter control sequences out of 15000+200000
- 717543 words of font info for 197 fonts, out of 3000000 for 9000
+ 718627 words of font info for 206 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,17n,75p,1015b,1881s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Program Files/Mi
 KTeX 2.9/fonts/enc/dvips/ly1/texnansi.enc}<C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/mathdesign/mdput/md-utri7m.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/ado
-be/utopia/putb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putb
-8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/urw/avantgar/uagd8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ava
-ntgar/uagdo8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagko8a
-.pfb>
-Output written on GPS_PPM_Colle_03_Nacelle.pdf (3 pages, 2128587 bytes).
+pe1/mathdesign/mdput/md-utr7t.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/math
+design/mdput/md-utr7y.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/mathdesign/m
+dput/md-utri7m.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8a
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8a.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/adobe/utopia/putri8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avant
+gar/uagd8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagdo8a.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagko8a.pfb>
+Output written on GPS_PPM_Colle_03_Nacelle.pdf (3 pages, 2135170 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
+ 107 PDF objects out of 1000 (max. 8388607)
  13 named destinations out of 1000 (max. 500000)
- 67682 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 69730 words of extra memory for PDF output out of 74296 (max. 10000000)
 
