@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.12)  14 SEP 2018 21:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.12)  18 SEP 2018 21:06
 entering extended mode
 **./GPS_PPM_Colle_02_Moyeu.tex
 (GPS_PPM_Colle_02_Moyeu.tex
@@ -2308,54 +2308,73 @@ File: images/fig_03.jpg Graphic file (type jpg)
 Package pdftex.def Info: images/fig_03.jpg  used on input line 104.
 (pdftex.def)             Requested size: 162.62517pt x 241.84842pt.
 LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
-(Font)              scaled to size 9.40002pt on input line 112.
+(Font)              scaled to size 9.40002pt on input line 114.
 
 
 Package hyperref Warning: bookmark level for unknown exo defaults to 0.
 
 LaTeX Font Info:    Font shape `T1/mdput/m/it' will be
-(Font)              scaled to size 9.40002pt on input line 112.
+(Font)              scaled to size 9.40002pt on input line 114.
 <images/gps_01.jpg, id=9, 26.0172pt x 6.0225pt>
 File: images/gps_01.jpg Graphic file (type jpg)
 <use images/gps_01.jpg>
-Package pdftex.def Info: images/gps_01.jpg  used on input line 112.
+Package pdftex.def Info: images/gps_01.jpg  used on input line 114.
 (pdftex.def)             Requested size: 56.9055pt x 13.17323pt.
 <images/gps_02.jpg, id=10, 31.7988pt x 6.0225pt>
 File: images/gps_02.jpg Graphic file (type jpg)
 <use images/gps_02.jpg>
-Package pdftex.def Info: images/gps_02.jpg  used on input line 112.
+Package pdftex.def Info: images/gps_02.jpg  used on input line 114.
 (pdftex.def)             Requested size: 56.9055pt x 10.77808pt.
 File: images/gps_01.jpg Graphic file (type jpg)
 <use images/gps_01.jpg>
-Package pdftex.def Info: images/gps_01.jpg  used on input line 117.
+Package pdftex.def Info: images/gps_01.jpg  used on input line 119.
 (pdftex.def)             Requested size: 73.76228pt x 17.07182pt.
 File: images/gps_02.jpg Graphic file (type jpg)
 <use images/gps_02.jpg>
-Package pdftex.def Info: images/gps_02.jpg  used on input line 117.
+Package pdftex.def Info: images/gps_02.jpg  used on input line 119.
 (pdftex.def)             Requested size: 90.1539pt x 17.07182pt.
 <images/gps_03.jpg, id=11, 22.1628pt x 5.7816pt>
 File: images/gps_03.jpg Graphic file (type jpg)
 <use images/gps_03.jpg>
-Package pdftex.def Info: images/gps_03.jpg  used on input line 117.
+Package pdftex.def Info: images/gps_03.jpg  used on input line 119.
 (pdftex.def)             Requested size: 65.4456pt x 17.07182pt.
 <images/gps_04.jpg, id=12, 19.7538pt x 5.7816pt>
 File: images/gps_04.jpg Graphic file (type jpg)
 <use images/gps_04.jpg>
-Package pdftex.def Info: images/gps_04.jpg  used on input line 117.
+Package pdftex.def Info: images/gps_04.jpg  used on input line 119.
 (pdftex.def)             Requested size: 58.33194pt x 17.07182pt.
 <images/gps_05.jpg, id=13, 36.135pt x 9.636pt>
 File: images/gps_05.jpg Graphic file (type jpg)
 <use images/gps_05.jpg>
-Package pdftex.def Info: images/gps_05.jpg  used on input line 117.
+Package pdftex.def Info: images/gps_05.jpg  used on input line 119.
 (pdftex.def)             Requested size: 74.69746pt x 19.91684pt.
 
-Overfull \hbox (21.80957pt too wide) in paragraph at lines 117--118
-\T1/mdput/b/n/10 Question    [][] \T1/mdput/m/it/10 (-20) Dé-crire les spé-ci-f
-i-ca-tions sui-vantes : [], [], [], []
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+[]\T1/mdput/m/it/10 (+20) , [], [] et
  []
 
+<images/fig_04.png, id=14, 347.2975pt x 181.67876pt>
+File: images/fig_04.png Graphic file (type png)
+<use images/fig_04.png>
+Package pdftex.def Info: images/fig_04.png  used on input line 128.
+(pdftex.def)             Requested size: 165.42531pt x 86.53947pt.
+
+Overfull \hbox (6.75076pt too wide) in paragraph at lines 111--131
+[]$[]$  $[]$ 
+ []
+
+<images/plan_01.pdf, id=16, 845.1575pt x 597.23125pt>
+File: images/plan_01.pdf Graphic file (type pdf)
+<use images/plan_01.pdf>
+Package pdftex.def Info: images/plan_01.pdf  used on input line 144.
+(pdftex.def)             Requested size: 684.49646pt x 483.69687pt.
+<images/plan.pdf, id=17, 845.1575pt x 597.23125pt>
+File: images/plan.pdf Graphic file (type pdf)
+<use images/plan.pdf>
+Package pdftex.def Info: images/plan.pdf  used on input line 145.
+(pdftex.def)             Requested size: 684.49646pt x 483.69687pt.
 LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
-(Font)              scaled to size 7.52002pt on input line 134.
+(Font)              scaled to size 7.52002pt on input line 146.
 [1
 
 {C:/Users/xpess/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
@@ -2364,26 +2383,16 @@ ed.
 design size mismatch in local font md-utro8t in virtual font mdputro8t.vf ignor
 ed. <./images/fig_00.jpg> <./images/fig_02.jpg> <./images/fig_03.jpg> <./images
 /gps_01.jpg> <./images/gps_02.jpg> <./images/gps_03.jpg> <./images/gps_04.jpg> 
-<./images/gps_05.jpg>]
-<images/plan_01.pdf, id=35, 845.1575pt x 597.23125pt>
-File: images/plan_01.pdf Graphic file (type pdf)
-<use images/plan_01.pdf>
-Package pdftex.def Info: images/plan_01.pdf  used on input line 135.
-(pdftex.def)             Requested size: 684.49646pt x 483.69687pt.
-<images/plan.pdf, id=36, 845.1575pt x 597.23125pt>
-File: images/plan.pdf Graphic file (type pdf)
-<use images/plan.pdf>
-Package pdftex.def Info: images/plan.pdf  used on input line 136.
-(pdftex.def)             Requested size: 684.49646pt x 483.69687pt.
-<png/logo_lycee.png, id=37, 329.23pt x 265.99374pt>
+<./images/gps_05.jpg> <./images/fig_04.png>]
+<png/logo_lycee.png, id=41, 329.23pt x 265.99374pt>
 File: png/logo_lycee.png Graphic file (type png)
 <use png/logo_lycee.png>
-Package pdftex.def Info: png/logo_lycee.png  used on input line 139.
+Package pdftex.def Info: png/logo_lycee.png  used on input line 148.
 (pdftex.def)             Requested size: 56.9055pt x 45.97325pt.
 LaTeX Font Info:    Font shape `T1/mdput/m/it' will be
-(Font)              scaled to size 7.52002pt on input line 139.
+(Font)              scaled to size 7.52002pt on input line 148.
 LaTeX Font Info:    Font shape `T1/pag/m/it' in size <8> not available
-(Font)              Font shape `T1/pag/m/sl' tried instead on input line 139.
+(Font)              Font shape `T1/pag/m/sl' tried instead on input line 148.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2394,7 +2403,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [2 <./png/logo_lycee.png> <./images/plan_01.pdf, page is rotated 90 degrees>]
 File: png/logo_lycee.png Graphic file (type png)
 <use png/logo_lycee.png>
-Package pdftex.def Info: png/logo_lycee.png  used on input line 142.
+Package pdftex.def Info: png/logo_lycee.png  used on input line 151.
 (pdftex.def)             Requested size: 56.9055pt x 45.97325pt.
 
 
@@ -2404,13 +2413,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
-(Font)              scaled to size 11.28003pt on input line 142.
+(Font)              scaled to size 11.28003pt on input line 151.
 [3 <./images/plan.pdf, page is rotated 90 degrees>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 142.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 142.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 151.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 151.
  (GPS_PPM_Colle_02_Moyeu.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 142.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 142.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 151.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 151.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2418,14 +2427,14 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package logreq Info: Writing requests to 'GPS_PPM_Colle_02_Moyeu.run.xml'.
 \openout1 = `GPS_PPM_Colle_02_Moyeu.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 142.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 151.
  ) 
 Here is how much of TeX's memory you used:
- 43905 strings out of 492972
- 822090 string characters out of 3135883
+ 43916 strings out of 492972
+ 822331 string characters out of 3135883
  1382578 words of memory out of 3000000
- 47039 multiletter control sequences out of 15000+200000
- 717953 words of font info for 200 fonts, out of 3000000 for 9000
+ 47043 multiletter control sequences out of 15000+200000
+ 718534 words of font info for 205 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,17n,75p,1013b,1881s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Program Files/Mi
@@ -2438,9 +2447,9 @@ TeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/urw/avantgar/uagd8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ava
 ntgar/uagdo8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagko8a
 .pfb>
-Output written on GPS_PPM_Colle_02_Moyeu.pdf (3 pages, 1442087 bytes).
+Output written on GPS_PPM_Colle_02_Moyeu.pdf (3 pages, 1872792 bytes).
 PDF statistics:
- 147 PDF objects out of 1000 (max. 8388607)
+ 149 PDF objects out of 1000 (max. 8388607)
  13 named destinations out of 1000 (max. 500000)
- 67692 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 67697 words of extra memory for PDF output out of 74296 (max. 10000000)
 
