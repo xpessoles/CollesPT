@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.12)  9 OCT 2018 23:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.12)  9 OCT 2018 23:02
 entering extended mode
 **./GPS_PPM_Colle_03_BancEssai.tex
 (GPS_PPM_Colle_03_BancEssai.tex
@@ -2165,11 +2165,6 @@ LaTeX Font Info:    Font shape `T1/pag/b/n' in size <17.28> not available
 LaTeX Font Warning: Font shape `T1/pag/b/fsc' undefined
 (Font)              using `T1/pag/b/n' instead on input line 159.
 
-<images/fig_01.jpg, id=6, 2826.56pt x 2119.92pt>
-File: images/fig_01.jpg Graphic file (type jpg)
-<use images/fig_01.jpg>
-Package pdftex.def Info: images/fig_01.jpg  used on input line 162.
-(pdftex.def)             Requested size: 78.2455pt x 58.67805pt.
 LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
 (Font)              scaled to size 19.49565pt on input line 166.
 LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
@@ -2279,14 +2274,14 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `mdput' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<images/fig_02.jpg, id=7, 89.3739pt x 76.8471pt>
+<images/fig_02.jpg, id=6, 89.3739pt x 76.8471pt>
 File: images/fig_02.jpg Graphic file (type jpg)
 <use images/fig_02.jpg>
 Package pdftex.def Info: images/fig_02.jpg  used on input line 111.
 (pdftex.def)             Requested size: 177.63632pt x 152.76277pt.
 LaTeX Font Info:    Font shape `T1/mdput/m/it' will be
 (Font)              scaled to size 9.40002pt on input line 113.
-<images/fig_03.jpg, id=8, 103.8279pt x 125.7498pt>
+<images/fig_03.jpg, id=7, 103.8279pt x 125.7498pt>
 File: images/fig_03.jpg Graphic file (type jpg)
 <use images/fig_03.jpg>
 Package pdftex.def Info: images/fig_03.jpg  used on input line 118.
@@ -2300,7 +2295,7 @@ LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 141.
-<images/fig_05.jpg, id=9, 133.9404pt x 48.9027pt>
+<images/fig_05.jpg, id=8, 133.9404pt x 48.9027pt>
 File: images/fig_05.jpg Graphic file (type jpg)
 <use images/fig_05.jpg>
 Package pdftex.def Info: images/fig_05.jpg  used on input line 152.
@@ -2314,7 +2309,7 @@ LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
 design size mismatch in local font md-utbo8t in virtual font mdputbo8t.vf ignor
 ed.
 design size mismatch in local font md-utro8t in virtual font mdputro8t.vf ignor
-ed. <./images/fig_01.jpg> <./images/fig_02.jpg> <./images/fig_03.jpg>]
+ed. <./images/fig_02.jpg> <./images/fig_03.jpg>]
 
 Package hyperref Warning: bookmark level for unknown exo defaults to 0.
 
@@ -2332,12 +2327,12 @@ LaTeX Font Info:    Font shape `T1/mdput/m/it' will be
 (Font)              scaled to size 6.58002pt on input line 207.
 LaTeX Font Info:    Font shape `T1/mdput/m/it' will be
 (Font)              scaled to size 4.70001pt on input line 207.
-<images/fig_06.jpg, id=27, 326.4195pt x 200.9106pt>
+<images/fig_06.jpg, id=26, 326.4195pt x 200.9106pt>
 File: images/fig_06.jpg Graphic file (type jpg)
 <use images/fig_06.jpg>
 Package pdftex.def Info: images/fig_06.jpg  used on input line 218.
 (pdftex.def)             Requested size: 483.69687pt x 297.72314pt.
-<png/logo_lycee.png, id=28, 329.23pt x 265.99374pt>
+<png/logo_lycee.png, id=27, 329.23pt x 265.99374pt>
 File: png/logo_lycee.png Graphic file (type png)
 <use png/logo_lycee.png>
 Package pdftex.def Info: png/logo_lycee.png  used on input line 221.
@@ -2369,11 +2364,11 @@ Package logreq Info: Writing requests to 'GPS_PPM_Colle_03_BancEssai.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 221.
  ) 
 Here is how much of TeX's memory you used:
- 43958 strings out of 492972
- 822626 string characters out of 3135883
- 1394576 words of memory out of 3000000
- 47017 multiletter control sequences out of 15000+200000
- 737807 words of font info for 250 fonts, out of 3000000 for 9000
+ 43956 strings out of 492972
+ 822589 string characters out of 3135883
+ 1394595 words of memory out of 3000000
+ 47015 multiletter control sequences out of 15000+200000
+ 738030 words of font info for 251 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,17n,77p,1017b,1881s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Program Files/Mi
@@ -2387,9 +2382,9 @@ X 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/adobe/utopia/putri8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avant
 gar/uagd8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagdo8a.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagko8a.pfb>
-Output written on GPS_PPM_Colle_03_BancEssai.pdf (2 pages, 2494245 bytes).
+Output written on GPS_PPM_Colle_03_BancEssai.pdf (2 pages, 403075 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
+ 93 PDF objects out of 1000 (max. 8388607)
  10 named destinations out of 1000 (max. 500000)
- 65611 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 65606 words of extra memory for PDF output out of 74296 (max. 10000000)
 
