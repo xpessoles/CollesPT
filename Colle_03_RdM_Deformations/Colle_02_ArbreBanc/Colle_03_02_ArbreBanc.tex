@@ -1,0 +1,285 @@
+\documentclass[10pt,fleqn]{article} % Default font size and left-justified equations
+\usepackage[%
+    pdftitle={X Pessoles RDM },
+    pdfauthor={Xavier Pessoles}]{hyperref}
+
+    
+\input{style/new_style}
+\input{style/macros_SII}
+\usepackage{multicol}
+\usepackage{siunitx}
+%\usepackage{picins}
+\fichetrue
+%\fichefalse
+
+\proftrue
+
+\proffalse
+
+\tdtrue
+%\tdfalse
+
+\courstrue
+\coursfalse
+
+
+\def\classe{\textsf{PT}}
+\def\xxnumpartie{}%Cycle --}
+\def\xxpartie{ }
+
+\def\xxnumchapitre{}%Chapitre -- \vspace{.2cm}}
+\def\xxchapitre{\hspace{.12cm} }
+
+\def\discipline{Sciences \\Industrielles de \\ l'Ingénieur}
+\def\xxtete{Sciences Industrielles de l'Ingénieur}
+
+
+  
+\def\xxposongletx{2}
+\def\xxposonglettext{1.45}
+\def\xxposonglety{20}
+%\def\xxonglet{Part. 1 -- Ch. 3}
+\def\xxonglet{\textsf{}}%Cycle 05}}
+
+\def\xxactivite{Colle 01}
+\def\xxauteur{\textsl{Xavier Pessoles}}
+
+
+\def\xxtitreexo{Banc d'essai de boîte de transfert}
+\def\xxsourceexo{\hspace{.2cm} \footnotesize{CCP TSI}}
+
+
+\def\xxcompetences{%
+\vspace{-.5cm}
+\footnotesize{
+\textsl{%
+\textbf{Savoirs et compétences :}\\
+\vspace{-.2cm}
+%\begin{itemize}[label=\ding{112},font=\color{ocre}] 
+%\item Mod2.C18.SF1 : Déterminer l’énergie cinétique d’un solide, ou d’un ensemble de solides, dans son mouvement par rapport à un autre solide.
+%\item Res1.C1.SF1 : Proposer une démarche permettant la détermination de la loi de mouvement.
+%\item Mod1.C5.SF2 : Déterminer la puissance des actions mécaniques extérieures à un solide ou à un ensemble de solides, dans son mouvement rapport à un autre solide.
+%\item Mod1.C5.SF3 : Déterminer la puissance des actions mécaniques intérieures à un ensemble de solides.
+%\end{itemize}
+}}}
+
+\def\xxfigures{
+\includegraphics[width=.8\textwidth]{images/fig_01}
+}%figues de la page de garde
+
+
+\def\xxpied{%
+%Cycle 05 -- Modélisation mécanique -- Énergétique\\% afin de valider leurs performances.\\
+%Chapitre 1 -- \xxactivite%
+}
+
+\setcounter{secnumdepth}{5}
+%---------------------------------------------------------------------------
+
+
+\begin{document}
+%\chapterimage{png/Fond_Cin}
+\input{style/new_pagegarde}
+\vspace{4.5cm}
+\pagestyle{fancy}
+\thispagestyle{plain}
+
+
+\def\columnseprulecolor{\color{ocre}}
+\setlength{\columnseprule}{0.4pt} 
+
+%\ifprof
+%\else
+\begin{multicols}{2}
+%\fi
+\section*{Mise en situation}
+
+$\base{x}{y}{z}$, sont :
+\footnotesize
+Airbus Helicopters commercialise des hélicoptères civils et militaires. Pour les États ou les entreprises faisant l’acquisition de ces machines, un des critères de choix est la masse qui
+peut être embarquée ou déplacée. Ainsi, pour
+les hélicoptères de la gamme EC 145, la masse
+à transporter est de 3585 kg. Cette charge va
+influer sur les dimensions de l’appareil et sur
+la puissance à fournir par les turboréacteurs.
+Le déplacement des hélicoptères est assuré
+par un rotor principal permettant la sustentation
+et la translation de l’appareil. Un rotor
+arrière permet de compenser le couple de réaction engendré par le rotor principal et
+de contrôler les mouvements de lacet de l’appareil. La puissance est délivrée par deux
+turboréacteurs (certains hélicoptères ne sont équipés que d’un turboréacteur). Ces
+turboréacteurs entraînent en rotation une boîte de transmission principale.
+La Boite de Transmission Principale (BTP) permet de distribuer la puissance au
+rotor principal, au rotor de queue ainsi qu’à différents accessoires (alternateur, pompe
+hydraulique, etc.).
+
+
+
+Afin d’évaluer la qualité de la BTP, un banc d’essai permet de la
+solliciter et de recréer les conditions de vol. Le diagramme des exigences partiel des exigences est donné figure suivante.
+
+
+\begin{center}
+\includegraphics[width=\linewidth]{images/fig_02}
+\end{center}
+
+Le banc d’essai se présente sous la forme d’un châssis permettant d’assurer la liaison avec la BTP. Il est équipé d’un moteur à courant continu piloté par un variateur lui-même alimenté par un transformateur. Ce moteur
+entraîne une succession de réducteurs entraînant eux-mêmes deux arbres reliés aux deux
+entrées de la BTP. La BTP agit alors sur le rotor principal de l’hélicoptère. Le respect des
+caractéristiques des cycles d’essais est assuré par un asservissement en vitesse et en couple.
+Des vérins (intégrés au système de simulation des efforts) permettent d’appliquer les efforts simulant la portance de l’appareil en sortie de la BTP.
+
+\begin{obj}
+L’objectif de cette étude est de dimensionner l’arbre faisant la jonction entre la
+BTP et le banc d’essai.
+\end{obj}
+
+\begin{center}
+\includegraphics[width=.8\linewidth]{images/fig_03}
+\end{center}
+
+\normalsize 
+
+
+
+
+\subsection*{Modélisation de la structure}
+
+Dans le cadre d’un essai de la BTP, les pales ne sont pas utilisées. Il est donc nécessaire
+de concevoir un arbre de sortie qui doit faire office de rotor principal. Cet arbre de sortie
+devra supporter des efforts équivalents à ceux engendrés par les efforts aérodynamiques.
+L’accouplement avec le reste du banc d’essai doit permettre de fournir un couple
+résistant. Par ailleurs, des vérins permettent de générer l’équivalent de
+l’effort de portance. Une modélisation de l’arbre de sortie de la BTP est présentée sur la
+figure  suivante.
+
+\begin{center}
+\includegraphics[width=\linewidth]{images/fig_04}
+\end{center}
+
+On étudie la phase de vie où l’hélicoptère passe d’une condition de vol stationnaire
+à un déplacement. Cette configuration du banc d’essai se traduit par la modélisation
+donnée figure suivante. Les efforts sont les suivants en $A$, $B$ et $C$ dans le repère $\repere{O}{x_S}{y_s}{z_s}$.
+$
+\torseurstat{T}{\text{Ext}_A}{1} = \torseurcol{0}{F_y}{0}{0}{0}{0}{A,\mathcal{R}_S}, 
+\torseurstat{T}{\text{Ext}_B}{1} = \torseurcol{-F_x}{-F_y}{0}{0}{0}{0}{A,\mathcal{R}_S}, 
+\torseurstat{T}{\text{Ext}_C}{1} = \torseurcol{F_x}{0}{0}{C_t}{0}{0}{A,\mathcal{R}_S}
+$.
+
+\begin{center}
+\includegraphics[width=\linewidth]{images/fig_05}
+\end{center}
+
+\begin{multicols}{2}
+\begin{itemize}
+\item $OA = \ell_1 = \SI{100}{mm}$;
+\item $OB = \ell_2 = \SI{200}{mm}$;
+\item $OC = \ell_3 = \SI{300}{mm}$;
+\item $F_x = \SI{80000}{N}$; 
+\item $F_y = \SI{120000}{N}$;
+\item $Ct = \SI{4100}{Nm}$;
+\item $R_e = \SI{600}{Mpa}$ 
+\item limite d’élasticité au glissement : $R_{eg} = 0,5R_e$.
+\end{itemize}
+\end{multicols}
+
+
+\subsection{Évaluer les contraintes dans l’arbre}
+
+\subparagraph{}\textit{Après avoir identifié les différents tronçons à étudier, déterminer le torseur de
+cohésion dans l’arbre de sortie de la BTP.}
+
+\subparagraph{}\textit{Tracer les diagrammes des sollicitations associés à chacune des composantes du
+torseur de cohésion.}
+
+\subparagraph{}\textit{En ne tenant compte que des sollicitation donnant lieu à une contrainte normale,
+donner, dans chacun des tronçons :
+\begin{itemize}
+\item l’expression vectorielle de contrainte normale;
+\item l’allure du champ des contraintes;
+\item le diamètre minimal de l’arbre permettant de rester dans le domaine élastique.
+\end{itemize}}
+
+\subparagraph{}\textit{}
+
+\subparagraph{}\textit{}
+
+\subparagraph{}\textit{}
+\subparagraph{}\textit{}
+
+\subparagraph{}\textit{}
+
+%\subsection*{Flexion de l’arbre intermédiaire 2}
+%\begin{hypo}
+%Dans cette étude, le candidat ne prendra en compte que le moment de flexion $Mf_y$.
+%\end{hypo}
+
+\end{multicols}
+
+
+
+\newpage
+\begin{center}
+\includegraphics[width=\linewidth]{images/cor_01}
+\end{center}
+
+\begin{center}
+\includegraphics[width=\linewidth]{images/cor_02}
+\end{center}
+
+\end{document}
+
+\subparagraph{}\textit{}
+\ifprof
+\begin{corrige}~\\
+\end{corrige}
+\else
+\fi
+
+
+
+
+\subparagraph{}\textit{}
+\ifprof
+\begin{corrige}~\\
+\end{corrige}
+\else
+\fi
+
+\subparagraph{}\textit{}
+\ifprof
+\begin{corrige}~\\
+\end{corrige}
+\else
+\fi
+
+\subparagraph{}\textit{}
+\ifprof
+\begin{corrige}~\\
+\end{corrige}
+\else
+\fi
+
+\subparagraph{}\textit{}
+\ifprof
+\begin{corrige}~\\
+\end{corrige}
+\else
+\fi
+
+\subparagraph{}\textit{}
+\ifprof
+\begin{corrige}~\\
+\end{corrige}
+\else
+\fi
+
+\subparagraph{}\textit{}
+\ifprof
+\begin{corrige}~\\
+\end{corrige}
+\else
+\fi
+\begin{center}
+%\includegraphics[width=\linewidth]{images/fig_05}
+\end{center}
