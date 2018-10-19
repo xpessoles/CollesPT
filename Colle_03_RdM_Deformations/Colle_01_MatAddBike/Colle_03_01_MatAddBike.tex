@@ -46,7 +46,7 @@
 
 
 \def\xxtitreexo{Mât de l'AddBike}
-\def\xxsourceexo{\hspace{.2cm} \footnotesize{SIB 2007}}
+\def\xxsourceexo{\hspace{.2cm} \footnotesize{Agrégation SII -- 2018}}
 
 
 \def\xxcompetences{%
@@ -93,65 +93,73 @@
 \begin{multicols}{2}
 %\fi
 \section*{Mise en situation}
-Le dispositif Bi-roue est un système développé par une start-up dont le but est de développer l’utilisation d’un vélo afin d’en faire une réelle alternative aux autres moyens de transport. Ce produit doit s’adapter à tous types de vélo et doit permettre de transporter de la marchandise (colis ou courses du quotidien) ou encore des enfants
+Le dispositif Bi-roue est un système développé par une start-up dont le but est de développer l’utilisation d’un vélo afin d’en faire une réelle alternative aux autres moyens de transport. Ce produit doit s’adapter à tous types de vélo et doit permettre de transporter de la marchandise (colis ou courses du quotidien) ou encore des enfants.
 
-\begin{center}
-\includegraphics[width=\linewidth]{images/fig_03}
-\end{center}
-
-Les points $A$ et $B$ sont les centres d’inertie géométriques des sections droites contenant
-respectivement les points $P$ et $S$.
-En considérant la composante $A_{32}$ des efforts de la roue sur la vis dans le sens $\vect{x}$ positif, les
-torseurs des actions mécaniques extérieures qui s’exercent sur l’arbre intermédiaire 2, dans la base
-$\base{x}{y}{z}$, sont :
-\footnotesize
-$\torseurstat{T}{4}{2}_1 = \torseurcol{X_{Q_1}}{Y_{Q_1}}{Z_{Q_1}}{0}{0}{0}{Q_1}$, 
-$\torseurstat{T}{4}{2}_2 = \torseurcol{X_{Q_2}}{Y_{Q_2}}{Z_{Q_2}}{0}{0}{0}{Q_2}$, 
-$\torseurstat{T}{3}{2} = \torseurcol{A_{32}}{-R_{32}}{T_{32}}{0}{0}{0}{P}$, 
-$\torseurstat{T}{1}{2} = \torseurcol{0}{-R_{12}}{-T_{12}}{0}{0}{0}{S}$.
-
-\normalsize 
-
-\subparagraph{}\textit{Proposer une méthode permettant de déterminer l'expression du torseur des efforts intérieurs au centre d'inertie de chaque section droite.}
-
-\subparagraph{}\textit{Mettre en \oe{}uvre cette méthode pour déterminer le torseur de cohésion.}
-
-\subparagraph{}\textit{Tracer les diagrammes des sollicitations en fonction de l'abscisse du centre d'inertie de la section droite.}
-
-\subsection*{Torsion de l’arbre intermédiaire 2}
-
-Le module de Coulomb du matériau utilisé est : $G = \SI{80000}{MPa}$.
-
-\subparagraph{}\textit{Déterminer l’expression, en fonction de $T_{12}$, $d_2$, $G$, $L_2$, $L_3$ et $\theta_{\text{lim}}$, du diamètre minimum $D_{\text{min}}$ de l’arbre 2, pour que le déphasage $\theta$ des sections passant par le point
-$P$ et par le point $S$ soit inférieur à la valeur limite $\theta_{\text{lim}}$.}
-
-\subparagraph{}\textit{Dans le système étudié, le constructeur souhaite $\theta_{\text{lim}}=0,1\degres$. Donner la valeur
-numérique de $D_{\text{min}}$.}
-
-\subparagraph{}\textit{Du fait de l’existence de ce déphasage de sections et vis-à-vis du système étudié, quelle
-est le meilleur emplacement pour positionner le capteur de position. Doit-on le positionner
-sur le moteur ou sur la broche elle-même ? Justifier brièvement votre réponse.}
-
-%\subsection*{Flexion de l’arbre intermédiaire 2}
-%\begin{hypo}
-%Dans cette étude, le candidat ne prendra en compte que le moment de flexion $Mf_y$.
-%\end{hypo}
-
-\end{multicols}
-
+On représente ci-dessous le système sans les roues et sans le système de transport. 
 
 \begin{center}
 \includegraphics[width=\linewidth]{images/fig_02}
 \end{center}
 
-\newpage
+
+Un extrait des exigences est donné ci-dessous.
 \begin{center}
-\includegraphics[width=\linewidth]{images/cor_01}
+\includegraphics[width=\linewidth]{images/fig_06}
 \end{center}
 
+
+
+\subsection*{Modélisation retenue}
+On s'intéresse au dimensionnement du mât. Cet élément participe à la rigidité de la liaison entre la fourche du vélo et l'AddBike. Le modèle retenu est proposé figure suivante. 
+
+
 \begin{center}
-\includegraphics[width=\linewidth]{images/cor_02}
+\includegraphics[width=\linewidth]{images/fig_03}
 \end{center}
+
+
+\subparagraph{}\textit{Déterminer le torseur de cohésion dans chacun des deux tronçons de la poutre.} 
+\subparagraph{}\textit{Tracer les diagrammes des sollicitations et préciser leur nom.}
+\subsection*{Choix du matériau et de la géométrie}
+
+Quels que soient les résultats de la partie précédente, on considère que le mât n’est soumis qu’à de la flexion. On néglige l’angle du mât. Dans le but de dimensionner la section du mât, on cherche à connaître le matériau proposant le meilleur compromis masse -- tenue sans déformation permanente. 
+Les paramètres $a$ et $d$  sont appelés paramètres fixes et $c$  le paramètre ajustable. 
+On note $\rho$ la masse volumique du matériau. 
+
+\subparagraph{}\textit{Donner l’expression de la contrainte normale maximale dans le mât. 
+Exprimer sa masse en fonction des paramètres fixes ($a$  et $d$) , du moment de flexion, de la masse volumique et de la contrainte normale. }
+	
+
+On admet que la masse est proportionnelle à $\dfrac{\rho}{\sigma_{\text{maxi}}^{2/3}}$ .
+
+\subparagraph{}\textit{Quel critère faut-il maximiser pour minimiser la masse du mât tout en garantissant un fonctionnement sans déformation permanente de la pièce ?}
+\subparagraph{}\textit{En utilisant la carte d’Ashby (limite élastique en fonction de la masse volumique), proposer des matériaux permettant d’obtenir les meilleurs compromis masse – contrainte élastique.}
+	
+
+On considère que le moment maximal est de \SI{150}{N.m}. 
+\subparagraph{}\textit{En utilisant un coefficient de sécurité de 2 et les résultats des questions précédentes, choisir un matériau et déterminer la valeur de $c$  permettant que l’exigence 1.4.2 soit satisfaite.}
+
+
+\subsection*{Détermination des déformations}
+
+\subparagraph{}\textit{Proposer une méthode permettant de déterminer le déplacement du point $P$.}
+
+\subparagraph{}\textit{Après validation du professeur, mettre en \oe{}uvre cette méthode. .}
+\end{multicols}
+
+
+\begin{center}
+\includegraphics[width=\linewidth]{images/fig_07}
+\end{center}
+
+%\newpage
+%\begin{center}
+%\includegraphics[width=\linewidth]{images/cor_01}
+%\end{center}
+%
+%\begin{center}
+%\includegraphics[width=\linewidth]{images/cor_02}
+%\end{center}
 
 \end{document}
 
