@@ -184,7 +184,7 @@ $.
 \end{multicols}
 
 
-\subsection{Évaluer les contraintes dans l’arbre}
+\subsection*{Évaluer les contraintes dans l’arbre}
 
 \subparagraph{}\textit{Après avoir identifié les différents tronçons à étudier, déterminer le torseur de
 cohésion dans l’arbre de sortie de la BTP.}
@@ -200,14 +200,71 @@ donner, dans chacun des tronçons :
 \item le diamètre minimal de l’arbre permettant de rester dans le domaine élastique.
 \end{itemize}}
 
-\subparagraph{}\textit{}
 
-\subparagraph{}\textit{}
 
-\subparagraph{}\textit{}
-\subparagraph{}\textit{}
 
-\subparagraph{}\textit{}
+
+\subparagraph{}\textit{En ne prenant en compte que le moment de torsion, déterminer quel serait le rayon minimal de la poutre. }
+
+\subparagraph{}\textit{Sur le tronçon $]AB[$, déterminer l'expression de la norme du vecteur << contrainte de cisaillement >>.  Tracer 
+		l'allure du champ des contraintes sur ce tronçon.
+		Pour réaliser ce calcul, on pourra introduire le système de coordonnées polaires $(\rho,\theta)$ décrit
+		par la figure ci-dessous.}
+
+\begin{center}
+\includegraphics[width=.4\linewidth]{images/fig_06}
+\end{center}
+
+		Il n'est pas possible de sommer des contraintes normales et des contraintes de cisaillement. On utilise 
+alors le critère de von Mises, basé sur l'utilisation d'une contrainte équivalente. En utilisant le système de coordonnées polaires dans une section droite, on définit cette contrainte équivalente par 
+$\sigma_{vm}(\rho,\theta)=\sqrt{\sigma_n^2(\rho,\theta)+3\tau^2(\rho,\theta)}$ où $\sigma_n$ et $\tau$ représentent 
+respectivement les contraintes normale et tangentielle. Le critère de von Mises est alors : $\sigma_{\text{vm}} \leq R_e$.
+
+
+\subparagraph{}\textit{Exprimer $\sigma_{\text{vm}}(\rho, \theta)$ pour tout point d'une section circulaire de diamètre $D$ du tronçon $]AB[$. On exprimera le résultat en fonction de $C_t$, $F_y$, $D$, $\lambda$, $\ell_2$.}
+\subparagraph{}\textit{ Pour quelles valeurs de $\lambda$ et $\rho$ cette contrainte est-elle maximale ? Exprimer alors le critère de dimensionnement à appliquer en fonction de $D$, $F_y$, 
+$C_t$, $\ell_1$, $\ell_2$, $\theta$ et $R_e$.}
+
+
+La figure  suivante  représente la fonction ${R_e}-\sigma_{\text{vm}}$ pour $\theta$ compris dans l'intervalle $\left[-\pi,\pi\right]$ pour différents diamètres.
+
+\begin{center}
+\includegraphics[width=\linewidth]{images/courbes}
+\end{center}
+
+\subparagraph{}\textit{On choisit un diamètre de \SI{59}{mm} pour le tronçon $]BC[$. Proposer un diamètre de l'arbre pour le tronçon $]AB[$ en utilisant la figure précédente.}
+
+
+
+\subparagraph{}\textit{En conservant les dimensions précédentes et en considérant une phase de vie où l'arbre n'est soumis qu'à de la torsion, déterminer, en utilisant l'abaque de concentration de contraintes en torsion de la figure suivante le rayon de raccordement pour que le coefficient de concentration de contrainte soit inférieur à 1,5.}
+
+
+
+\begin{center}
+\includegraphics[width=\linewidth]{images/concentration_contrainte_torsion}
+\end{center}
+
+
+
+\begin{center}
+\includegraphics[width=.6\linewidth]{images/fig_06_bis}
+\end{center}
+
+\subsection*{Conclusion: Retour par rapport à l'objectif initial}
+
+Une analyse éléments finis a été menée sur l'arbre prédimensionné par la démarche que nous venons de suivre (voir Figure ci-dessous).
+
+\begin{center}
+\includegraphics[width=.4\linewidth]{images/EF}
+\end{center}
+
+
+\subparagraph{}\textit{Que peut-on en conclure ? Justifiez le besoin d'utiliser un coefficient de sécurité pour mener les études de prédimensionnement. 
+Dans le cas où un coefficient de sécurité serait imposé dans un nouveau cahier des charges, quelles seraient les étapes à modifier?}
+
+
+
+%\subparagraph{}\textit{}
 
 %\subsection*{Flexion de l’arbre intermédiaire 2}
 %\begin{hypo}
@@ -225,6 +282,10 @@ donner, dans chacun des tronçons :
 
 \begin{center}
 \includegraphics[width=\linewidth]{images/cor_02}
+
+\includegraphics[width=\linewidth]{images/cor_03}
+
+\includegraphics[width=\linewidth]{images/cor_04}
 \end{center}
 
 \end{document}
