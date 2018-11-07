@@ -45,7 +45,7 @@
 \def\xxauteur{\textsl{Xavier Pessoles}}
 
 
-\def\xxtitreexo{Banc d'essai de boîte de transfert}
+\def\xxtitreexo{Banc d'essai de boîte de transmission principale (BTP)}
 \def\xxsourceexo{\hspace{.2cm} \footnotesize{CCP TSI}}
 
 
@@ -94,23 +94,23 @@
 %\fi
 \section*{Mise en situation}
 
-$\base{x}{y}{z}$, sont :
-\footnotesize
-Airbus Helicopters commercialise des hélicoptères civils et militaires. Pour les États ou les entreprises faisant l’acquisition de ces machines, un des critères de choix est la masse qui
-peut être embarquée ou déplacée. Ainsi, pour
-les hélicoptères de la gamme EC 145, la masse
-à transporter est de 3585 kg. Cette charge va
-influer sur les dimensions de l’appareil et sur
-la puissance à fournir par les turboréacteurs.
-Le déplacement des hélicoptères est assuré
-par un rotor principal permettant la sustentation
-et la translation de l’appareil. Un rotor
-arrière permet de compenser le couple de réaction engendré par le rotor principal et
-de contrôler les mouvements de lacet de l’appareil. La puissance est délivrée par deux
-turboréacteurs (certains hélicoptères ne sont équipés que d’un turboréacteur). Ces
-turboréacteurs entraînent en rotation une boîte de transmission principale.
+
+
+%Airbus Helicopters commercialise des hélicoptères civils et militaires. Pour les États ou les entreprises faisant l’acquisition de ces machines, un des critères de choix est la masse qui
+%peut être embarquée ou déplacée. Ainsi, pour
+%les hélicoptères de la gamme EC 145, la masse
+%à transporter est de 3585 kg. Cette charge va
+%influer sur les dimensions de l’appareil et sur
+%la puissance à fournir par les turboréacteurs.
+%Le déplacement des hélicoptères est assuré
+%par un rotor principal permettant la sustentation
+%et la translation de l’appareil. Un rotor
+%arrière permet de compenser le couple de réaction engendré par le rotor principal et
+%de contrôler les mouvements de lacet de l’appareil. La puissance est délivrée par deux
+%turboréacteurs (certains hélicoptères ne sont équipés que d’un turboréacteur). Ces
+%turboréacteurs entraînent en rotation une boîte de transmission principale.
 La Boite de Transmission Principale (BTP) permet de distribuer la puissance au
-rotor principal, au rotor de queue ainsi qu’à différents accessoires (alternateur, pompe
+rotor principal, au rotor de queue ainsi qu’à différents accessoires d'un hélicoptère (alternateur, pompe
 hydraulique, etc.).
 
 
@@ -122,12 +122,12 @@ solliciter et de recréer les conditions de vol. Le diagramme des exigences part
 \begin{center}
 \includegraphics[width=\linewidth]{images/fig_02}
 \end{center}
-
-Le banc d’essai se présente sous la forme d’un châssis permettant d’assurer la liaison avec la BTP. Il est équipé d’un moteur à courant continu piloté par un variateur lui-même alimenté par un transformateur. Ce moteur
-entraîne une succession de réducteurs entraînant eux-mêmes deux arbres reliés aux deux
-entrées de la BTP. La BTP agit alors sur le rotor principal de l’hélicoptère. Le respect des
-caractéristiques des cycles d’essais est assuré par un asservissement en vitesse et en couple.
-Des vérins (intégrés au système de simulation des efforts) permettent d’appliquer les efforts simulant la portance de l’appareil en sortie de la BTP.
+%
+%Le banc d’essai se présente sous la forme d’un châssis permettant d’assurer la liaison avec la BTP. Il est équipé d’un moteur à courant continu piloté par un variateur lui-même alimenté par un transformateur. Ce moteur
+%entraîne une succession de réducteurs entraînant eux-mêmes deux arbres reliés aux deux
+%entrées de la BTP. La BTP agit alors sur le rotor principal de l’hélicoptère. Le respect des
+%caractéristiques des cycles d’essais est assuré par un asservissement en vitesse et en couple.
+%Des vérins (intégrés au système de simulation des efforts) permettent d’appliquer les efforts simulant la portance de l’appareil en sortie de la BTP.
 
 \begin{obj}
 L’objectif de cette étude est de dimensionner l’arbre faisant la jonction entre la
@@ -138,20 +138,22 @@ BTP et le banc d’essai.
 \includegraphics[width=.8\linewidth]{images/fig_03}
 \end{center}
 
-\normalsize 
+
 
 
 
 
 \subsection*{Modélisation de la structure}
 
-Dans le cadre d’un essai de la BTP, les pales ne sont pas utilisées. Il est donc nécessaire
-de concevoir un arbre de sortie qui doit faire office de rotor principal. Cet arbre de sortie
-devra supporter des efforts équivalents à ceux engendrés par les efforts aérodynamiques.
-L’accouplement avec le reste du banc d’essai doit permettre de fournir un couple
-résistant. Par ailleurs, des vérins permettent de générer l’équivalent de
-l’effort de portance. Une modélisation de l’arbre de sortie de la BTP est présentée sur la
-figure  suivante.
+%Dans le cadre d’un essai de la BTP, les pales ne sont pas utilisées. Il est donc nécessaire
+%de concevoir un arbre de sortie qui doit faire office de rotor principal. Cet arbre de sortie
+%devra supporter des efforts équivalents à ceux engendrés par les efforts aérodynamiques.
+%L’accouplement avec le reste du banc d’essai doit permettre de fournir un couple
+%résistant. Par ailleurs, des vérins permettent de générer l’équivalent de
+%l’effort de portance. Une modélisation de l’arbre de sortie de la BTP est présentée sur la
+%figure  suivante.
+
+Le modèle suivant présente l'arbre de sortie de BTP intégré dans le banc d'essai.
 
 \begin{center}
 \includegraphics[width=\linewidth]{images/fig_04}
