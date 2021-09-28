@@ -20,7 +20,11 @@
 \def\xxYCartouche{-2.25cm}
 \def\xxYongletGarde{.5cm}
 \def\xxYOnget{.9cm}
+\def\xxonglet{\textsf{Colles}}
 
+\def\xxposongletx{2}
+\def\xxposonglettext{1.45}
+\def\xxposonglety{20}
 
 \def\xxnumchapitre{}
 \def\xxchapitre{Résistance des Matériaux}
@@ -48,10 +52,10 @@
 \setlength{\columnseprule}{.1pt}
 
 
+\proftrue
 
 %% COLLE 1
 \livrettrue\def\xxactivite{Colle 01}
-\proffalse
 \newpage
 \input{\repStyle/pagegarde_TD}
 \vspace{4cm}
@@ -59,7 +63,7 @@
 \thispagestyle{plain}
 
 
-\begin{multicols}{2}
+%\begin{multicols}{2}
 \renewcommand{\repExo}{522_RdM}
 \graphicspath{{\repRel/Style/png/}{\repRel/ExercicesCompetences/C2_MettreEnOeuvreDemarche/C2_10_RdM_Cohesion/\repExo/images/}}
 \input{\repRel/ExercicesCompetences/C2_MettreEnOeuvreDemarche/C2_10_RdM_Cohesion/\repExo/\repExo.tex}
@@ -71,19 +75,19 @@
 \renewcommand{\repExo}{528_BrocheFraisage}
 \graphicspath{{\repRel/Style/png/}{\repRel/ExercicesCompetences/C2_MettreEnOeuvreDemarche/C2_10_RdM_Cohesion/\repExo/images/}}
 \input{\repRel/ExercicesCompetences/C2_MettreEnOeuvreDemarche/C2_10_RdM_Cohesion/\repExo/\repExo.tex}
-\end{multicols}
+%\end{multicols}
 
-
-
-%% COLLE 2
+%
+%
+%%% COLLE 2
 \livrettrue\def\xxactivite{Colle 02}
 \newpage
 \input{\repStyle/pagegarde_TD}
 \vspace{4cm}
 \pagestyle{fancy}
 \thispagestyle{plain}
-
-\begin{multicols}{2}
+%
+%%\begin{multicols}{2}
 \renewcommand{\repExo}{524_RdM}
 \graphicspath{{\repRel/Style/png/}{\repRel/ExercicesCompetences/C2_MettreEnOeuvreDemarche/C2_10_RdM_Cohesion/\repExo/images/}}
 \input{\repRel/ExercicesCompetences/C2_MettreEnOeuvreDemarche/C2_10_RdM_Cohesion/\repExo/\repExo.tex}
@@ -95,7 +99,7 @@
 \renewcommand{\repExo}{529_Passerelle}
 \graphicspath{{\repRel/Style/png/}{\repRel/ExercicesCompetences/C2_MettreEnOeuvreDemarche/C2_10_RdM_Cohesion/\repExo/images/}}
 \input{\repRel/ExercicesCompetences/C2_MettreEnOeuvreDemarche/C2_10_RdM_Cohesion/\repExo/\repExo.tex}
-\end{multicols}
+%\end{multicols}
 
 
 
@@ -107,7 +111,7 @@
 \pagestyle{fancy}
 \thispagestyle{plain}
 
-\begin{multicols}{2}
+%\begin{multicols}{2}
 \renewcommand{\repExo}{526_RdM}
 \graphicspath{{\repRel/Style/png/}{\repRel/ExercicesCompetences/C2_MettreEnOeuvreDemarche/C2_10_RdM_Cohesion/\repExo/images/}}
 \input{\repRel/ExercicesCompetences/C2_MettreEnOeuvreDemarche/C2_10_RdM_Cohesion/\repExo/\repExo.tex}
@@ -120,7 +124,7 @@
 \renewcommand{\repExo}{530_BancHelico}
 \graphicspath{{\repRel/Style/png/}{\repRel/ExercicesCompetences/C2_MettreEnOeuvreDemarche/C2_10_RdM_Cohesion/\repExo/images/}}
 \input{\repRel/ExercicesCompetences/C2_MettreEnOeuvreDemarche/C2_10_RdM_Cohesion/\repExo/\repExo.tex}
-\end{multicols}
+%\end{multicols}
 
 \end{document}
 
