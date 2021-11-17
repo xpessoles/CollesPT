@@ -1,0 +1,138 @@
+\documentclass[10pt,fleqn]{article} % Default font size and left-justified equations
+\usepackage[%
+    pdftitle={Exercices de SII},
+    pdfauthor={Xavier Pessoles}]{hyperref}
+
+\newcommand{\repRel}{../..}
+\input{\repRel/Style/packages}
+\input{\repRel/Style/new_style}
+\input{\repRel/Style/macros_SII}
+\input{\repRel/Style/environment}
+\usepackage{\repRel/Style/UPSTI_pedagogique}
+
+
+\newcommand{\macrocomp}{macro_competences}
+\newcommand{\comp}{competences}
+\newcommand{\td}{fichier_td}
+\newcommand{\repExo}{dossier}
+\newcommand{\repStyle}{\repRel/Style}
+
+\def\xxYCartouche{-2.25cm}
+\def\xxYongletGarde{.5cm}
+\def\xxYOnget{.9cm}
+
+
+\def\xxnumchapitre{}
+\def\xxchapitre{Principe fondamental de la dynamique}
+\def\xxtitreexo{Torseur dynamique}
+\def\xxsourceexo{}
+\def\xxactivite{Colle 01}
+\def\xxpartie{Exercices de colles}
+\def\xxnumpartie{PFD}
+\def\discipline{Sciences \\Industrielles de \\ l'Ingénieur}
+\def\classe{\textsf{PT$\star$ -- PT}}
+\def\xxauteur{\textsl{Xavier Pessoles}}
+
+\def\xxtete{Sciences Industrielles de l'Ingénieur}
+
+\def\xxpied{%
+\xxpartie\\
+\xxchapitre%
+}
+\begin{document}
+
+\def\xxcompetences{}
+\def\xxfigures{}
+
+
+\setlength{\columnseprule}{.1pt}
+
+
+\newcommand{\chemin}{522_RdM}
+
+%% COLLE 1
+\livrettrue\def\xxactivite{Colle 01}
+\proffalse
+\newpage
+\input{\repStyle/pagegarde_TD}
+\vspace{3cm}
+\pagestyle{fancy}
+\thispagestyle{plain}
+
+
+
+\begin{multicols}{2}
+\renewcommand{\repExo}{01_T}
+\renewcommand{\chemin}{ExercicesCompetences/C2_MettreEnOeuvreDemarche/C2_08_TorseurDynamique/}
+\graphicspath{{\repRel/Style/png/}{\repRel/\chemin/\repExo/images/}}
+\input{\repRel/\chemin/\repExo/\repExo.tex}
+
+\renewcommand{\repExo}{04_RR}
+\renewcommand{\chemin}{ExercicesCompetences/C2_MettreEnOeuvreDemarche/C2_08_TorseurDynamique/}
+\graphicspath{{\repRel/Style/png/}{\repRel/\chemin/\repExo/images/}}
+\input{\repRel/\chemin/\repExo/\repExo.tex}
+
+\renewcommand{\repExo}{07_RR3D}
+\renewcommand{\chemin}{ExercicesCompetences/C2_MettreEnOeuvreDemarche/C2_08_TorseurDynamique/}
+\graphicspath{{\repRel/Style/png/}{\repRel/\chemin/\repExo/images/}}
+\input{\repRel/\chemin/\repExo/\repExo.tex}
+\end{multicols}
+
+
+
+%% COLLE 2
+\livrettrue\def\xxactivite{Colle 02}
+\newpage
+\input{\repStyle/pagegarde_TD}
+\vspace{4cm}
+\pagestyle{fancy}
+\thispagestyle{plain}
+
+\begin{multicols}{2}
+\renewcommand{\repExo}{01_T_02}
+\renewcommand{\chemin}{ExercicesCompetences/C2_MettreEnOeuvreDemarche/C2_08_TorseurDynamique/}
+\graphicspath{{\repRel/Style/png/}{\repRel/\chemin/\repExo/images/}}
+\input{\repRel/\chemin/\repExo/\repExo.tex}
+
+\renewcommand{\repExo}{05_RT}
+\renewcommand{\chemin}{ExercicesCompetences/C2_MettreEnOeuvreDemarche/C2_08_TorseurDynamique/}
+\graphicspath{{\repRel/Style/png/}{\repRel/\chemin/\repExo/images/}}
+\input{\repRel/\chemin/\repExo/\repExo.tex}
+
+\renewcommand{\repExo}{08_RR3D}
+\renewcommand{\chemin}{ExercicesCompetences/C2_MettreEnOeuvreDemarche/C2_08_TorseurDynamique/}
+\graphicspath{{\repRel/Style/png/}{\repRel/\chemin/\repExo/images/}}
+\input{\repRel/\chemin/\repExo/\repExo.tex}
+\end{multicols}
+
+
+
+%% COLLE 3
+\livrettrue\def\xxactivite{Colle 03}
+\newpage
+\input{\repStyle/pagegarde_TD}
+\vspace{4cm}
+\pagestyle{fancy}
+\thispagestyle{plain}
+
+\begin{multicols}{2}
+\renewcommand{\repExo}{02_R}
+\renewcommand{\chemin}{ExercicesCompetences/C2_MettreEnOeuvreDemarche/C2_08_TorseurDynamique/}
+\graphicspath{{\repRel/Style/png/}{\repRel/\chemin/\repExo/images/}}
+\input{\repRel/\chemin/\repExo/\repExo.tex}
+
+\renewcommand{\repExo}{06_TR}
+\renewcommand{\chemin}{ExercicesCompetences/C2_MettreEnOeuvreDemarche/C2_08_TorseurDynamique/}
+\graphicspath{{\repRel/Style/png/}{\repRel/\chemin/\repExo/images/}}
+\input{\repRel/\chemin/\repExo/\repExo.tex}
+
+\renewcommand{\repExo}{09_RT_RSG}
+\renewcommand{\chemin}{ExercicesCompetences/C2_MettreEnOeuvreDemarche/C2_08_TorseurDynamique/}
+\graphicspath{{\repRel/Style/png/}{\repRel/\chemin/\repExo/images/}}
+\input{\repRel/\chemin/\repExo/\repExo.tex}
+\end{multicols}
+
+\end{document}
+
+
+
